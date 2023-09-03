@@ -18,6 +18,7 @@ plugins=(
   npm
   sudo
   docker-compose
+  poetry
 )
 
 # Custom plugins
@@ -50,6 +51,9 @@ alias pip_install="pip install -r requirements.txt"
 
 # Pyenv
 alias pyenv_list='pyenv install --list | grep " 3\.[91011]"'
+
+# Django
+alias django="python manage.py"
 
 # fzf
 [ -f /usr/share/doc/fzf/examples/key-bindings.zsh ] && source /usr/share/doc/fzf/examples/key-bindings.zsh
