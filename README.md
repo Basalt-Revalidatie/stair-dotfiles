@@ -32,6 +32,7 @@ This is the case for:
 - Python
 - GitHub
 - Node.JS/NPM
+- Poetry
 
 ### Install a python version
 
@@ -54,4 +55,12 @@ git config --global user.email "hello@example.com"
 nvm install 18
 nvm use 18
 nvm alias default 18
+```
+
+### Install Poetry
+
+_Note: This can only after installing python._
+
+```bash
+bash components/poetry.sh
 ```
