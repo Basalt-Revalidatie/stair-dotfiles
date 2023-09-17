@@ -9,7 +9,7 @@ ln -sf ~/$NAME-dotfiles/config/.gitignore ~
 echo
 echo "** Installing apt packages **"
 sudo apt-get update
-sudo apt-get install -y --no-install-recommends git zsh fzf vim jq unzip python3-venv
+sudo apt-get install -y --no-install-recommends git zsh fzf vim jq unzip python3-venv sqlite3
 
 USER=`whoami`
 sudo -n chsh $USER -s $(which zsh)
